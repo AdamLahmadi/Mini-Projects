@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(23, 23, 32);
+}
+
+#task-list .card{
+    margin: 10vh 0 15vh 0;
+}
+
+#loan-calculator .card{
+    margin-bottom: 15vh;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: 400;
+}
+
+#loan-calculator button{
+    text-align: center;
+    width: 100%;
+}
+
+#loan-calculator .collection-item{
+    color: black;
+    margin-right: 0;
+    width: 100%;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+#loan-calculator .collection-item{
+    font-weight: 500;
+    
+}
+
+#total-payment, #monthly-payment, #total-interest{
+    margin: 0;
+    border-bottom: none;
+}
+
+
+#loan-calculator .collection-item:hover{
+    background-color: white;
+    cursor: default;
+    
+}
+
+#results{
+    display: none;
+}
+
+/* Book List design */
+
+#bl .success, .error{
+    color: white;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+}
+
+#bl .success{
+    background: rgba(0, 255, 0, 0.3);
+    color: green;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+
+#bl .error{
+    background: rgba(255, 0, 0, 0.3);
+    color: red;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#bl a{
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+#bl a:hover{
+    font-weight: 600;
+    color: red;
+}
